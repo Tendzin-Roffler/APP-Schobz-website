@@ -52,3 +52,24 @@ h2{
 .bouton:hover {  /*Changement de couleur lorsque la souris passe dans une des zones à remplir*/
     background-color: #dd3333;
 }
+
+@media (max-aspect-ratio:3/2) {
+
+    .presentation_gestion{  /*Réglage général du block */
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        width: 40vw;
+    }
+
+    .form_information{  /*Reglage du form globale*/
+        position: absolute;
+        top: 30%;
+        left: 30%;
+    }
+
+    .form_information input[type=submit]{  /*Reglage pour les boutons*/
+        font-size: 75%;
+        background-color: #DD3333;
+    }
+}

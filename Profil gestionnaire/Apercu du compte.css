@@ -146,3 +146,19 @@ ul li:nth-child(7):hover /*Deconnexion*/
     transition: 0.5s;
     opacity: 70%;
 }
+
+@media (max-aspect-ratio:3/2) {
+
+    nav{
+        position: absolute;
+        top: 15%;
+        left: 5%;
+    }
+    
+
+    .welcome{  /*Reglage sur le visu bienvenue*/
+        top: 20%;
+        left: 50%;
+    }
+
+}

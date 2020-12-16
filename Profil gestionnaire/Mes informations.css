@@ -75,3 +75,16 @@ h2{
     width: 13vw;
     background-color: white;
 }
+
+@media (max-aspect-ratio: 3/2) {
+    .presentation_information{  /*Réglage général du block */
+        top: 20%;
+        left: 30%;
+        height: 70vw;
+    
+    }
+    .form_information{  /*Reglage du form globale*/
+        top: 35%;
+        left: 35%;
+    }
+}
