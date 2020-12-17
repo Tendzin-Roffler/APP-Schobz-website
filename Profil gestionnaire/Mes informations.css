@@ -77,14 +77,14 @@ h2{
 }
 
 @media (max-aspect-ratio: 3/2) {
-    .presentation_information{  /*Réglage général du block */
+    .presentation_information{  
         top: 20%;
         left: 30%;
         height: 70vw;
     
     }
-    .form_information{  /*Reglage du form globale*/
+    .form_information{ 
         top: 35%;
         left: 35%;
     }
-}
+} 
