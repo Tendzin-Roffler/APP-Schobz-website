@@ -17,14 +17,14 @@
                     die("Échec de la connexion:" . mysqli_connect_error());
                 }
                 
-                $sql = 'UPDATE personne SET verified=1 WHERE (SELECT nom FROM personne)='.$nom;
+                $sql = "UPDATE personne SET verified=1 WHERE nom='$nom'";
 
-                if ($conn->query($sql) === TRUE) {
+                if (mysqli_query($conn,$sql) === TRUE) {
                     echo "Compte vérifié";
                   } else {
                     echo "Une erreur s'est produite lors de la vérification du compte: " . $conn->error;
                   }
-                  $conn->close();
+                mysqli_close($conn);
             } else { 
                 echo "Nous sommes désolés. Il semble y avoir une erreur lors de la vérification. Merci de réessayer"; 
             }
