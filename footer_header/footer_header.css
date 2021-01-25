@@ -309,10 +309,7 @@ input:checked + .slider:before {
     margin: 2vw 2vw 0 1vw;
     position: static;
 }
-.link_CGU{
-    margin-bottom: 6vw;
-    margin-left: 4.5vw;
-}
+
 #popup_CGU {
     text-decoration: none;
 }
