@@ -7,7 +7,7 @@
             $dBHost = "localhost";
             $dBUser = "root";
             $dBPassword = "root";
-            $dBDatabase = "schobz_data";
+            $dBDatabase = "schobz_data_demo";
             $port = "3306";
 
 
@@ -32,7 +32,7 @@
                 <body>
                     <div style="padding:0;margin:0 auto;font-size:16px;font-weight:normal;line-height:22px"> 
                         Bonjour,'.$username.'. Merci de votre inscription dans la formation. Cependant, il reste une dernière étape avant la validation de votre compte. Il suffit de cliquer sur le lien ci-joint:<br/>
-                        <a href="http://localhost/verified.php?verified=1&nom='.$username.'&email='.$email.'">Verify here</a>
+                        <a href="http://localhost/APP-Schobz-website/Verification_mail/verified.php?verified=1&nom='.$username.'&email='.$email.'">Verifier ici</a>
                     </div>                
                 </body>
             </html>';

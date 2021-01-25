@@ -8,7 +8,7 @@
                 $dBHost = "localhost";
                 $dBUser = "root";
                 $dBPassword = "root";
-                $dBDatabase = "schobz_data";
+                $dBDatabase = "schobz_data_demo";
                 $port = "3306";
 
                 $conn = mysqli_connect($dBHost, $dBUser, $dBPassword, $dBDatabase, $port);
